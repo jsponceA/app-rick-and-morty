@@ -26,6 +26,11 @@ button {
   box-shadow: none;
 }
 
+body {
+  min-height: 100vh;
+  background-image: url("../img/background-page.png");
+}
+
 ::-webkit-scrollbar {
   width: 12px; /* Ancho de la barra de desplazamiento */
 }
@@ -57,7 +62,6 @@ button {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-image: url("../img/background-page.png");
 }
 
 header {
